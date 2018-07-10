@@ -34,7 +34,12 @@ h4 {
 .social {
   background-color: #282828;
   color: #fff;
+  padding: 20px 0;
 }
-.social-instagram .col-12 {
+.social-instagram .col-12,
+.social-youtube .col-12 {
   margin-bottom: 10px;
+}
+.social-instagram-item img {
+  margin: 12px 0;
 }
