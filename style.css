@@ -4,9 +4,6 @@ body {
 section {
   margin: 50px 0 0 0;
 }
-.navbar {
-  padding: 20px 0;
-}
 .jumbotron {
   background: url(img/bg-header.png) center center/cover no-repeat;
 }
@@ -37,4 +34,7 @@ h4 {
 .social {
   background-color: #282828;
   color: #fff;
+}
+.social-instagram .col-12 {
+  margin-bottom: 10px;
 }
