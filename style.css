@@ -43,3 +43,6 @@ h4 {
 .social-instagram-item img {
   margin: 12px 0;
 }
+.social-widget .column{
+  height: 100%;
+}
