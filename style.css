@@ -13,7 +13,7 @@ h1 {
   text-transform: uppercase;
 }
 h4 {
-  color: #ffda00;
+  color: #ff3333;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -45,4 +45,10 @@ h4 {
 }
 .social-widget .column{
   height: 100%;
+}
+.social-widget .column .col-12:nth-child(2n+3) {
+  margin: 20px 0;
+}
+.wcommunity_header .wcommunity_header_covered .wcommunity_header_avatar {
+  display: none !important;
 }
