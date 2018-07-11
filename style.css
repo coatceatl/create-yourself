@@ -44,11 +44,30 @@ h4 {
   margin-left: 15px;
   margin-right: 15px;
   opacity: 0.9;
-  background-image: linear-gradient(to right, #053885 0%, #007eff 100%);
+  background-image: linear-gradient(to right, #bf80ff 0%, #f2e6ff 100%);
 }
-.homework-block img {
+.lesson-image.active:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  opacity: 0.9;
+  background-image: linear-gradient(to right, #3333ff 0%, #b3e0ff 100%);
+}
+.lesson {
   width: 400px;
   height: 183px;
+}
+.video {
+  position: absolute;
+  top: 33%;
+  right: 42%;
+  z-index: 10;
+  opacity: 0.5;
 }
 .social {
   background-color: #282828;
