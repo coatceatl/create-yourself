@@ -38,7 +38,7 @@ h4 {
   }
 }
 .lesson-image {
-  margin: 10px;
+  margin: 10px 0;
   position: relative;
 }
 .lesson {
@@ -116,13 +116,13 @@ h4 {
 }
 @media(max-width: 410px) {
   .lesson {
-    max-width: 300px;
+    max-width: 280px;
   }
 }
 @media(max-width: 410px) {
   .lesson-image:after,
   .lesson-image.active:after {
-    max-width: 300px;
+    max-width: 280px;
   }
 }
 
