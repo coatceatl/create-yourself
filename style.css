@@ -34,6 +34,11 @@ h4 {
 .lesson-image {
   position: relative;
 }
+.lesson {
+  width: 400px;
+  height: 183px;
+  position: relative;
+}
 .lesson-image:after {
   content: '';
   position: absolute;
@@ -41,10 +46,15 @@ h4 {
   right: 0;
   bottom: 0;
   left: 0;
-  margin-left: 15px;
-  margin-right: 15px;
+  width: 400px;
+  height: 183px;
   opacity: 0.9;
   background-image: linear-gradient(to right, #bf80ff 0%, #f2e6ff 100%);
+/*
+  @media(max-width: 992px) {
+    margin-left: 28px;
+    margin-top: 5px;
+  }*/
 }
 .lesson-image.active:after {
   content: '';
@@ -53,14 +63,10 @@ h4 {
   right: 0;
   bottom: 0;
   left: 0;
-  margin-left: 15px;
-  margin-right: 15px;
-  opacity: 0.9;
-  background-image: linear-gradient(to right, #3333ff 0%, #b3e0ff 100%);
-}
-.lesson {
   width: 400px;
   height: 183px;
+  opacity: 0.9;
+  background-image: linear-gradient(to right, #3333ff 0%, #b3e0ff 100%);
 }
 .video {
   position: absolute;
@@ -68,6 +74,18 @@ h4 {
   right: 42%;
   z-index: 10;
   opacity: 0.5;
+}
+.number {
+  position: absolute;
+  bottom: 0%;
+  left: 7%;
+  z-index: 3;
+  border-radius: 50%;
+  padding-left: 7px;
+  padding-right: 7px;
+  background-color: rgba(255,255,255,0.4);
+  color: rgba(242,152,147,1);
+  border: 1px solid #f29893;
 }
 .social {
   background-color: #282828;
@@ -87,6 +105,11 @@ h4 {
 .social-widget .column .col-12:nth-child(2n+3) {
   margin: 20px 0;
 }
-.wcommunity_header .wcommunity_header_covered .wcommunity_header_avatar {
-  display: none !important;
-}
+/*
+@media(max-width: 990px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}*/
