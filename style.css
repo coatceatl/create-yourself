@@ -95,6 +95,11 @@ h4 {
   color: rgba(242,152,147,1);
   border: 1px solid #f29893;
 }
+@media(max-width: 1200px) {
+  .number {
+    left: 17%;
+  }
+}
 .social {
   background-color: #282828;
   color: #fff;
