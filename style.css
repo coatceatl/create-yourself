@@ -130,4 +130,8 @@ h4 {
     max-width: 280px;
   }
 }
+.story-image,
+.story-video iframe {
+  width: 100%;
+}
 
