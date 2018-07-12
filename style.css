@@ -28,8 +28,7 @@ h4 {
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
 }
 @media (max-width: 1200px) {
   .video-wrapper iframe {
