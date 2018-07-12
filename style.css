@@ -89,10 +89,12 @@ h4 {
   z-index: 10;
   opacity: 0.5;
 }
+.lesson-number {
+  width: 65%;
+}
 .number {
   position: absolute;
   bottom: 0%;
-  left: 7%;
   z-index: 3;
   border-radius: 50%;
   padding-left: 7px;
@@ -101,11 +103,13 @@ h4 {
   color: rgba(242,152,147,1);
   border: 1px solid #f29893;
 }
+/*
 @media(max-width: 1200px) {
   .number {
     left: 17%;
   }
 }
+*/
 .social {
   background-color: #282828;
   color: #fff;
