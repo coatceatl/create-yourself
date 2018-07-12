@@ -76,6 +76,14 @@ h4 {
   margin-left: auto;
   margin-right: auto;
 }
+@media (min-width: 1600px) {
+  .lesson,
+  .lesson-image:after,
+  .lesson-image.active:after {
+    width: 100%;
+    height: 100%;
+  }
+}
 .video {
   position: absolute;
   top: 33%;
