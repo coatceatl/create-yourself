@@ -118,7 +118,7 @@ h4 {
   .lesson,
   .lesson-image:after,
   .lesson-image.active:after {
-    width: 340px;
+    max-width: 300px;
   }
 }
 
