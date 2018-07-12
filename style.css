@@ -83,12 +83,13 @@ h4 {
     left: 40%;
   }
 }
+/*
 @media(max-width: 768px) {
   .video {
     right: 0;
     left: 23%;
   }
-}
+}*/
 @media(max-width: 380px) {
   .video {
     right: 0;
