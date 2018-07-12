@@ -124,7 +124,8 @@ h4 {
 .social-youtube .col-12 {
   margin-bottom: 10px;
 }
-.social-instagram-item img {
+.social-instagram-item img,
+.social-youtube-item img {
   margin: 12px 0;
 }
 .social-widget .column{
