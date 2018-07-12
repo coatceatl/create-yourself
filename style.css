@@ -36,7 +36,7 @@ h4 {
   position: relative;
 }
 .lesson {
-  width: 400px;
+  width: 380px;
   height: 183px;
   position: relative;
 }
@@ -47,7 +47,7 @@ h4 {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 400px;
+  width: 380px;
   height: 183px;
   opacity: 0.9;
   background-image: linear-gradient(to right, #bf80ff 0%, #f2e6ff 100%);
@@ -59,7 +59,7 @@ h4 {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 400px;
+  width: 380px;
   height: 183px;
   opacity: 0.9;
   background-image: linear-gradient(to right, #3333ff 0%, #b3e0ff 100%);
@@ -101,11 +101,11 @@ h4 {
 .social-widget .column .col-12:nth-child(2n+3) {
   margin: 20px 0;
 }
-/*
-@media(max-width: 990px) {
-  .social {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+@media(max-width: 390px) {
+  .lesson,
+  .lesson-image:after,
+  .lesson-image.active:after {
+    width: 340px;
   }
-}*/
+}
+
